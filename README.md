@@ -17,7 +17,7 @@ To ensure data integrity and analytical accuracy, a Minimum Viable Data Cleaning
 
 A. Categorical Normalization & Schema Optimization
 
-Algorithmic Job Title Consolidation: The primary role field (“Which title fits you best”) was flooded with disparate free-text entries. By applying text-transformation scripts and splitting strings via the opening parenthesis delimiter `(`, noisy variations were stripped away, strategically consolidating dozens of disjointed roles into **6 to 7 clean, high-level operational job families.
+Algorithmic Job Title Consolidation: The primary role field (“Which title fits you best”) was flooded with disparate free-text entries. By applying text-transformation scripts and splitting strings via the opening parenthesis delimiter `(`, noisy variations were stripped away, strategically consolidating dozens of disjointed roles into 6 to 7 clean, high-level operational job families.
 
 Tech Stack Isolation:The "Favorite programming language" column contained fragmented text combinations. String manipulation via a colon delimiter `:` successfully isolated core programming languages from non-standard survey noise.
 
@@ -33,6 +33,7 @@ The original "Current yearly salary" data was captured as non-numeric text range
 3. Calculated Column Generation: Generated an accurate Average Salary metric for every respondent using a calculated column workflow:
 
 $$\text{Average Salary} = \frac{\text{Low Salary} + \text{High Salary}}{2}$$
+<img width="256" height="192" alt="image" src="https://github.com/user-attachments/assets/7b26cd4c-05e0-4e20-bbb1-368cd4c76d41" />
 
 
 
@@ -54,6 +55,8 @@ A cross-sectional analysis of average salaries by core data functions exposed a 
 | **Data Engineer** | **$65,000** | Positioned as a core infrastructure necessity with stable mid-tier pricing. |
 | **Data Architect** | **$63,000** | High-level strategic role showcasing specialized data management value. |
 | **Data Analyst** | **$55,000** | Represents the absolute majority volume of the talent pool, serving as the market's operational foundation. |
+<img width="475" height="280" alt="image" src="https://github.com/user-attachments/assets/1c3c9ad8-9ccb-426c-bfe4-089b2557b101" />
+
 
 B. Technology Ecosystem Dominance
 
@@ -70,13 +73,15 @@ D. Qualitative Sentiment & Market Friction Metrics
 
 The Retention Risk Indicator: Utilizing dual KPI gauges (0-10 scale), the data reveals a critical corporate risk. While Work-Life Balance scores a moderate ~5.74, Salary Satisfaction scores significantly lower. This gap signals a widespread market sentiment that compensation has not kept pace with inflation and role responsibilities.
 Gender Pay Equity: In this specific global sample, Females commanded a slightly higher average salary (~$55,000) relative to Males (~$53,000).
-Market Entry Barriers: A psychologically color-coded Pie Chart demonstrates that incoming professionals perceive breaking into the data space as a **highly competitive, friction-heavy process, signaling a tight screening environment for entry-level roles.
+Market Entry Barriers: A psychologically color-coded Pie Chart demonstrates that incoming professionals perceive breaking into the data space as a highly competitive, friction-heavy process, signaling a tight screening environment for entry-level roles.
 
 
 
 5. UI/UX Design & Dashboard Usability
 
 To transition the dashboard from a basic tool to an executive-ready application, specific design guidelines were enforced:
+<img width="1112" height="627" alt="image" src="https://github.com/user-attachments/assets/c904813d-5255-4026-83c5-ed9a4cfeac2a" />
+
 
 Muted Color Psychology:Replaced standard stark white backgrounds with a natural, muted color palette to minimize visual fatigue during long analysis sessions.
 Intuitive Layout Hierarchy: Positioned critical KPI cards and titles ("Data Professional Survey Breakdown") on the left and top areas to match natural reading patterns.
