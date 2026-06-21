@@ -33,8 +33,7 @@ The original "Current yearly salary" data was captured as non-numeric text range
 3. Calculated Column Generation: Generated an accurate Average Salary metric for every respondent using a calculated column workflow:
 
 $$\text{Average Salary} = \frac{\text{Low Salary} + \text{High Salary}}{2}$$
-<img width="256" height="192" alt="image" src="https://github.com/user-attachments/assets/7b26cd4c-05e0-4e20-bbb1-368cd4c76d41" />
-
+<img width="367" height="280" alt="image" src="https://github.com/user-attachments/assets/e75f8595-adac-4aa0-b4d8-143d84159843" />
 
 
 3. High-Level Metrics & Core Cohort Demographics
